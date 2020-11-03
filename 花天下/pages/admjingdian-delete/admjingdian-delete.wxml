@@ -1,0 +1,4 @@
+<!--pages/admjingdian-delete/admjingdian-delete.wxml-->
+<input placeholder='填写要删除的景点编号' bindinput="deleteName"></input>
+<button bindtap="lookData">确认删除</button>
+<button bindtap="deleteData">删除数据</button>

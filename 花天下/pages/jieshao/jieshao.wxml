@@ -1,0 +1,13 @@
+<view>
+  <view class="tp">
+    <image class="tu" src="cloud://test-h3kfc.7465-test-h3kfc-1303825603/htxjqimages/find/lbt/fxylbt.png"></image>
+  </view>
+  <scroll-view class="tab-list" scroll-x scroll-with-animation>
+    <view wx:for="{{tabList}}" class="tab-item {{curTab===index ? 'selected-tab':''}}" data-index="{{index}}" bindtap="selectTab">{{item.name}}</view>
+  </scroll-view>
+  <swiper current="{{current}}" bindchange="swiperChange">
+    <block wx:for="{{tabList}}">
+      <swiper-item class="jieshao">{{item.text}}</swiper-item>
+    </block>
+  </swiper>
+</view>

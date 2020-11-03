@@ -1,0 +1,9 @@
+.imgList{
+  width: 100%;
+}
+.imgList .imgList-li{
+  width: 100%;
+}
+.imgList .imgList-li .img{
+  width: 100%;
+}

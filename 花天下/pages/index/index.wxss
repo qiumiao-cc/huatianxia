@@ -1,0 +1,150 @@
+.index_swiper swiper {
+  width: 750rpx;
+  height: 340rpx;
+}
+.index_swiper swiper image {
+  width: 100%;
+}
+
+.adsec{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 10rpx auto;
+  background:rgb(221, 236, 219);
+  border-radius:6px;
+  padding: 7rpx 10rpx;
+  height: 50rpx;
+}
+.adsec icon{
+  display: flex;
+  font-size:x-large;
+  margin-right: 10rpx;
+}
+.swiper_container {
+  height: 55rpx;
+  width: 80%;
+  line-height: 55rpx;
+  padding-left: 10rpx;
+}
+ 
+.swiper_item {
+  font-size: 25rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  letter-spacing: 2px;
+}
+
+.plate{
+  height:180rpx;
+  background: rgb(255, 255, 255);
+}
+.plate-item{
+  display: flex;
+  float:left;
+  position: relative;
+  width: 140rpx;
+  height:155rpx;
+  margin-top:20rpx; 
+  margin-left:45rpx;
+  justify-content: center;
+}
+.plate-img image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.plate-info{
+  position: absolute;
+  height:30rpx;
+  font-size: 30rpx;
+  font-family: '微软雅黑';
+  bottom: 60rpx;
+  left:37rpx;
+}
+.fg{
+  height: 15rpx;
+  background-color:rgb(244, 236, 236);
+}
+.rm{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.huo{
+  color: red;
+}
+.rmjd{
+  font-size: 45rpx;
+  color: rgb(0, 0, 0);
+  font-weight:bolder;
+  font-family:KaiTi;
+}
+.container {
+  padding-top: 0;
+ }
+  
+.item {
+  width: 100%;
+  height: 220rpx;
+  position: relative;
+  margin: 10rpx 10rpx;
+  border-bottom: 1px solid rgb(244, 236, 236);
+  display: flex;
+ }
+
+ .item .img {
+  margin-left: 10rpx;
+  width: 300rpx;
+  height: 200rpx;
+  padding: 0rpx;
+  flex-shrink: 0;
+  border-radius: 30rpx;
+  overflow: hidden;
+ }
+ .item .number-wrapper {
+  padding-top: 25rpx;
+  flex-direction: column;
+  justify-content: space-between;
+ }
+
+  
+ .number-wrapper .name {
+  margin-left: 10rpx;
+  font-size: 43rpx;
+  overflow: hidden;
+  font-family: '楷体';
+ }
+  
+ .number-wrapper .count-wrapper {
+  display: flex;
+  color: rgba(90, 85, 85, 0.82);
+  align-items: center;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  font-size: 18rpx;
+  font-weight: 300;
+  font-family: '楷体';
+  display: -webkit-box;
+  word-break:break-all;
+  text-overflow:ellipsis;
+  font-size:28rpx;
+  overflow:hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:2;
+ }
+  
+ .number-wrapper .count-wrapper .count {
+  margin: 0 1rpx 0 1rpx;
+  font-size: 30rpx;
+ }
+ 
+ .pingfen{
+ font-size: 30rpx;
+ margin-top: 20rpx;
+ margin-left: 20rpx;
+ color:red;
+ font-family: '楷体';
+ } 

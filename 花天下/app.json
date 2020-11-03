@@ -1,0 +1,70 @@
+{
+  "pages": [
+    "pages/sq/sq",
+    "pages/index/index",
+    "pages/adm/adm",
+    "pages/admjingdian/admjingdian",
+    "pages/admjingqv/admjingqv",
+    "pages/admindex/admindex",
+    "pages/admjingdian-add/admjingdian-add",
+    "pages/admjingdian-delete/admjingdian-delete",
+    "pages/admjingdian-look/admjingdian-look",
+    "pages/admjingdian-updata/admjingdian-updata",
+    "pages/admjingdian-add-image/admjingdian-add-image",
+    "pages/admjingdian-updata-image/admjingdian-updata-image",
+    "pages/admjingqv-look/admjingqv-look",
+    "pages/admjingqv-updata/admjingqv-updata",
+    "pages/admjingqv-tongzhi/admjingqv-tongzhi",
+    "pages/admjingqv-lbt/admjingqv-lbt",
+    "pages/faxian/faxian",
+    "pages/wo/wo",
+    "pages/jingdian/jingdian",
+    "pages/gonglue/gonglue",
+    "pages/menpiao/menpiao",
+    "pages/huodong/huodong",
+    "pages/ditu/ditu",
+    "pages/jieshao/jieshao",
+    "pages/meishi/meishi",
+    "pages/zhusu/zhusu",
+    "pages/fuwu/fuwu",
+    "pages/logs/logs",
+    "pages/shouquan/shouquan",
+    "pages/details/details",
+    "pages/photo/photo",
+    "pages/usertable/usertable"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3CB371",
+    "navigationBarTitleText": "花天下生态旅游区",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "position": "bottom",
+    "color": "#999999",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/shouye.png",
+        "selectedIconPath": "icon/shouye_o.png"
+      },
+      {
+        "pagePath": "pages/faxian/faxian",
+        "text": "发现",
+        "iconPath": "icon/faxian.png",
+        "selectedIconPath": "icon/faxian_o.png"
+      },
+      {
+        "pagePath": "pages/wo/wo",
+        "text": "我的",
+        "iconPath": "icon/wo.png",
+        "selectedIconPath": "icon/wo_o.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

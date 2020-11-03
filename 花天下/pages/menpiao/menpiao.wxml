@@ -1,0 +1,16 @@
+<!--pages/menpiao/menpiao.wxml-->
+<view>
+  <view class="schoollist">
+    <block wx:for="{{items}}" wx:key="item" >
+      <view class="school-list">
+          <view class="school-list-info" index="{{index}}">
+            <image class="school-list-photo" src="{{item.imageUrl}}"/>
+            <text class="school-list-desc">{{item.content}}</text>
+            <text class="school-list-desc1">￥{{item.money}}</text>
+            <text class="school-list-desc2">{{item.num}}</text>
+          </view>
+      </view>
+    </block>
+  </view>
+</view>
+

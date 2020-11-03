@@ -1,0 +1,12 @@
+<!--pages/admjingdian-add/admjingdian-add.wxml-->
+<input placeholder='输入景点编号' bindinput="addid"></input>
+<input placeholder='输入景点名称' bindinput="addcontent"></input>
+<input placeholder='输入详细介绍' bindinput="addcontent1"></input>
+<input placeholder='输入门票价格' bindinput="addmoney"></input>
+<input placeholder='输入评分' bindinput="addnum"></input>
+
+<button bindtap="addData">添加数据</button>
+<view>景点编号请勿输入：</view>
+<view wx:for="{{nodata}}">
+    <view>{{item.id}}</view>
+</view>

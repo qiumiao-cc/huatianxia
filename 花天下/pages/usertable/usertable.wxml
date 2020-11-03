@@ -1,0 +1,13 @@
+<!--pages/usertable/usertable.wxml-->
+<button bindtap="getData">查看用户表</button>
+<view wx:for="{{cc}}">
+<view>昵称:{{item.nickName}}</view>
+
+ <view wx:if="{{item.gender==2}}">性别:女</view>
+ <view wx:else>性别:男</view>
+  <view>省份:{{item.province}}</view>
+  <view>省会:{{item.city}}</view>
+  <view>国籍:{{item.country}}</view>
+  <image src="{{item.avatarUrl}}"></image>
+</view>
+

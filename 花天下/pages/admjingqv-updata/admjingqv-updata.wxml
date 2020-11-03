@@ -1,0 +1,7 @@
+<!--pages/admjingqv-updata/admjingqv-updata.wxml-->
+<input placeholder='填写更新id' bindinput="deleteid"></input>
+<input placeholder="{{namec}}" bindinput="addname"></input>
+<input placeholder='{{textc}}' bindinput="addtext"></input>
+<button bindtap="lookData">读取数据</button>
+<button bindtap="udpData">更新数据</button>
+<!-- <button bindtap="udpDimageata">修改图片</button> -->

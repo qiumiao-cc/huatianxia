@@ -1,0 +1,5 @@
+<!--pages/admjingdian/admjingdian.wxml-->
+<button bindtap="addData">添加数据</button>
+<button bindtap="updData">修改数据</button>
+<button bindtap="deleteData">删除数据</button>
+<button bindtap="lookData">查看数据</button>

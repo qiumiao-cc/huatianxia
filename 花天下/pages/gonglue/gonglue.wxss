@@ -1,0 +1,11 @@
+page{
+  background-color: #F0F0F0;
+}
+.gonglue{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height:600rpx;
+  background-color: white;
+  border-radius:15px !important;
+}

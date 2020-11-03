@@ -1,0 +1,24 @@
+<view>
+  <view class="fuwu">
+    <view class="number-wrapper">
+          <text class="name">咨询电话</text>
+            <view class="count-wrapper">
+              <text class="count">0598-6223223</text>
+            </view>
+    </view>
+    <view class="boda">
+      <button class="btn" bindtap="Tel">拨打</button>
+    </view>
+  </view>
+  <view class="fuwu">
+    <view class="number-wrapper">
+          <text class="name">投诉电话</text>
+            <view class="count-wrapper">
+              <text class="count">0598-6223273</text>
+            </view>
+    </view>
+    <view class="boda">
+      <button class="btn" bindtap="Tell">拨打</button>
+    </view>
+  </view>
+</view>

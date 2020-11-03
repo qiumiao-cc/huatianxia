@@ -1,0 +1,56 @@
+page{
+  background-color: #F0F0F0;
+}
+.fuwu{
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height:150rpx;
+  background-color: white;
+  border-radius:15px !important;
+  display: flex;
+}
+.fuwu .number-wrapper{
+  padding-top: 12rpx;
+  padding-left: 20rpx;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  display: flex;
+  justify-content: center;  /*水平*/
+}
+.number-wrapper .name {
+  margin-left: 10rpx;
+  font-size: 40rpx;
+  overflow: hidden;
+  font-family: '宋体';
+ }
+ .number-wrapper .count-wrapper {
+  display: flex;
+  color: rgba(90, 85, 85, 0.82);
+  align-items: center;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  font-size: 35rpx;
+  font-weight: 300;
+  font-family: '宋体';
+ }
+ .fuwu .boda{
+  display: flex;
+  justify-content: center;  /*水平*/
+  align-items: center; /*垂直*/
+ }
+.boda .btn{
+  color: white;
+  background-color: #3CB371;
+  margin-left: 10rpx;
+  width: 150rpx;
+  height: 90rpx;
+  padding: 0rpx;
+  border-radius: 30rpx;
+  overflow: hidden;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-right: 10px;
+ }

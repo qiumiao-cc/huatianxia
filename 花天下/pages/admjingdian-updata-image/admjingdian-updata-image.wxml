@@ -1,0 +1,5 @@
+<!--pages/admjingdian-updata-image/admjingdian-updata-image.wxml-->
+<input placeholder='填写更新id' bindinput="adddeid"></input>
+<button bindtap="lookData">缓存图片地址</button>
+<button bindtap="addImage">修改图片</button>
+

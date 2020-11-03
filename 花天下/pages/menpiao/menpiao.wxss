@@ -1,0 +1,70 @@
+
+/* pages/menpiao/menpiao.wxss */
+
+.schoollist-head-img{
+  width: 100%;
+  height: 180rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.schoollist{
+  margin-top: 20rpx;
+
+}
+
+.school-list-info{
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 25rpx;
+  position: relative;
+  width: 350rpx;
+  height: 170px;
+  background-color: #F5F5F5;
+}
+ 
+.school-list-photo{
+  width: 350rpx;
+  height: 250rpx;
+
+}
+.school-list-desc{
+  line-height: 10rpx;
+  display: block;
+  color:  #000;
+  position: absolute;
+  left: 0;
+  width: 94%;
+  text-align: left;
+  font-size: 40rpx;
+  padding: 10rpx;
+  font-family:"微软雅黑";
+  font-weight:bold;
+  
+}
+.school-list-desc1{
+  line-height: 50px;
+  display: block;
+  color:#00BFFF;
+  position: absolute;
+  left: 0;
+  width: 94%;
+  text-align:left;
+  font-size: 35rpx;
+  padding: 10rpx;
+}
+.school-list-desc2{
+  line-height: 55px;
+  display: block;
+  color:#C0C0C0;
+  position: absolute;
+  left: 0;
+  width: 94%;
+  text-align:right;
+  font-size: 25rpx;
+  padding: 10rpx;
+
+}
+
+
+
+

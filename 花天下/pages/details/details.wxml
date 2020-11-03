@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="tp">
+     <image src="{{detailData.imgsrc}}" class="slide-image"/>
+  </view>
+  <view class="divLine"></view>
+    <view class='header'>
+      <view> {{detailData.name}}</view>
+    </view>
+    <view class="divLine"></view>
+  <view class='comment'>
+      {{detailData.count}}
+  </view>
+</view>

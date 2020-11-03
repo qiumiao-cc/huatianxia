@@ -1,0 +1,5 @@
+<!--pages/adm/adm.wxml-->
+<input placeholder='输入账号' bindinput="admadm"></input>
+<input placeholder='输入密码' bindinput="admpass"></input>
+<button bindtap="gogo">登录</button>
+<text>htxjqadm</text>

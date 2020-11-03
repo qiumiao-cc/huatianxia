@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="tp">
+     <image src="{{jdData.imageUrl}}" class="slide-image"/>
+  </view>
+  <view class="divLine"></view>
+    <view class='header'>
+      <view> {{jdData.content}}</view>
+    </view>
+    <view class="divLine"></view>
+ <view class='comment'>
+      {{jdData.content1}}
+  </view>
+</view>
+
+
+

@@ -1,0 +1,10 @@
+<!--pages/admjingdian-updata/admjingdian-updata.wxml-->
+<input placeholder='填写更新id' bindinput="deleteid"></input>
+<input placeholder="{{contentc}}" bindinput="addcontent"></input>
+<input placeholder='{{content1c}}' bindinput="addcontent1"></input>
+<input placeholder='{{moneyc}}' bindinput="addmoney"></input>
+<input placeholder='{{numc}}' bindinput="addnum"></input>
+<button bindtap="lookData">读取数据</button>
+<button bindtap="udpData">更新数据</button>
+<button bindtap="udpDimageata">修改图片</button>
+

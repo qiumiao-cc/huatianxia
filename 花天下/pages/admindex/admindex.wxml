@@ -1,0 +1,4 @@
+<!--pages/admindex/admindex.wxml-->
+<button bindtap="jingdian">景点</button>
+<button bindtap="jingqv">景区</button>
+<button bindtap="userbook">用户信息表</button>

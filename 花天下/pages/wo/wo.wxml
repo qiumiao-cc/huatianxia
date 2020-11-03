@@ -1,0 +1,73 @@
+<button class="login-button head-height" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+  <view class='head head-height'>
+
+    <block wx:if="true">
+
+  
+
+      <view class="userinfo">
+
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+
+      </view>
+
+    </block>
+
+    <block wx:else>
+
+         <view class="userinfo">
+
+
+        <text class="userinfo-nickname">微信授权</text>
+
+      </view>
+
+      <button class="login-button head-height" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+
+    </block>
+    </view>
+    <view class="list-wrapper">
+
+    <view class="alllists">
+
+      <block wx:for="{{menuitems}}" wx:key="menu_for">
+
+        <navigator url="{{item.url}}" class="lists">
+
+        <view class='content'>
+
+          <view class="listimg">
+
+            <image src="{{item.icon}}"></image>
+
+          </view>
+
+          <view class="listtext" style="flex:1">{{item.text}}</view>
+
+          <view class="listicon">{{item.tips}}</view>
+
+          <view class="arrows">
+
+            <image src="{{item.arrows}}"></image>
+
+          </view>
+
+        </view>
+
+        </navigator>
+
+        <!-- 分割线 -->
+
+        <view class="divLine"></view>
+
+      </block>
+
+    </view>
+    <view class='imagesize'>
+    <image  src="{{tyb}}"></image>
+    </view>
+  </view>
+
+

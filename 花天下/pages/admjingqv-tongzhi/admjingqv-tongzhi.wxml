@@ -1,0 +1,10 @@
+<!--pages/admjingqv-tongzhi/admjingqv-tongzhi.wxml-->
+<view wx:for="{{cc}}">
+  <view>title:{{item.title}}</view>
+</view>
+<input placeholder='{{a}}' bindinput="setDataone1"></input>
+  <button bindtap="setData">更新第一条</button>
+  <input placeholder='{{b}}' bindinput="setDatatwo1"></input>
+  <button bindtap="setData1">更新第二条</button>
+  <input placeholder='{{c}}' bindinput="setDatathree1"></input>
+  <button bindtap="setData2">更新第三条</button>

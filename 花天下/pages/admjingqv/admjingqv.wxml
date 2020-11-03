@@ -1,0 +1,5 @@
+<!--pages/admjingqv/admjingqv.wxml-->
+<button bindtap="updData">修改数据</button>
+<button bindtap="lookData">查看数据</button>
+<button bindtap="tongData">修改通知栏信息</button>
+<button bindtap="lunbotuData">修改轮播图信息</button>

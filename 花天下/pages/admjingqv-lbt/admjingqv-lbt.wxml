@@ -1,0 +1,4 @@
+<!--pages/admjingqv-lbt/admjingqv-lbt.wxml-->
+<button bindtap="upImage">修改轮播图1</button>
+<button bindtap="upImage1">修改轮播图2</button>
+<button bindtap="upImage2">修改轮播图3</button>

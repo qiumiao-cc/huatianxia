@@ -1,0 +1,12 @@
+<!--pages/admjingdian-look/admjingdian-look.wxml-->
+<button bindtap="getData">查询数据</button>
+<view wx:for="{{cc}}">
+<view>_id:{{item._id}}</view>
+  <view>id:{{item.id}}</view>
+  <view>content:{{item.content}}</view>
+  <view>content1:{{item.content1}}</view>
+  <view>imageUrl:</view>
+  <image src="{{item.imageUrl}}"></image>
+  <view>money:{{item.money}}</view>
+  <view>num:{{item.num}}</view>
+</view>

@@ -1,0 +1,178 @@
+.head-height {
+
+  height: 240rpx;
+
+}
+
+ 
+
+.head {
+
+  display:flex;
+
+  width: 100%;
+
+  background-color: #3CB371;
+
+  align-items: center;
+
+}
+
+ 
+
+.login-button {
+
+  opacity: 0; 
+
+  width: 100%;
+
+  position: fixed;
+
+}
+
+ 
+
+.userinfo {
+
+  display: flex;
+
+  flex-direction: row;
+
+  align-items: center;
+
+  width: 100%;
+
+  position: fixed;
+
+}
+
+ 
+
+.userinfo-avatar {
+
+  width: 150rpx;
+
+  height: 150rpx;
+
+  margin: 30rpx;
+
+  border-radius: 50%;
+
+}
+
+ 
+
+.userinfo-nickname {
+
+  color: #333333;
+
+  font-size: 42rpx;
+
+}
+.avatar-wrapper {
+
+  background: #1b82d1;
+
+  padding: 25px 0;
+
+}
+
+ 
+
+.avatar-wrapper .avatar {
+
+  margin: 0 auto;
+
+  text-align: center;
+
+}
+
+ 
+
+.avatar-wrapper .avatar image {
+
+  width: 100px;
+
+  height: 100px;
+
+}
+
+ 
+
+.avatar-wrapper .text {
+
+  text-align: center;
+
+  color: #fff;
+
+}
+
+ 
+
+.listimg image {
+
+  margin-right: 5px;
+
+  vertical-align: middle;
+  margin-left: 10px;
+
+  width: 30px;
+
+  height: 30px;
+
+}
+
+ 
+
+.content{
+
+  display: flex;
+
+  margin-top: 10px;
+
+  margin-bottom: 10px;
+
+
+}
+.listtext{
+  font-size: 20px;
+}
+ 
+
+/*分割线样式*/
+
+.divLine{
+
+ background: #E0E3DA;
+
+ width: 100%;
+
+ height: 5rpx;
+
+}
+
+ 
+
+.arrows image {
+
+  vertical-align: middle;
+
+  width: 15px;
+
+  height: 15px;
+
+  text-align: right;
+  margin-right: 10px;
+}
+
+.imagesize{
+  display:flex;
+  height: 200px;                 
+  justify-content: center;        
+  align-items:center;             
+  
+ }
+ .imagesize image { 
+   width:400rpx;
+   height:400rpx;
+   }

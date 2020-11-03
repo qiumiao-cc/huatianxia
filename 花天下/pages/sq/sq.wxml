@@ -1,0 +1,9 @@
+<!--pages/sq/sq.wxml-->
+<!-- <open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data>
+<open-data type="userGender" lang="zh_CN"></open-data>
+<view></view>
+<open-data type="userCity" lang="zh_CN"></open-data> -->
+
+
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo">获取用户信息</button>

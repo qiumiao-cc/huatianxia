@@ -1,0 +1,39 @@
+<scroll-view scroll-y class="htx_faxian">
+  <view class="img">
+    <image class="tu" src='cloud://test-h3kfc.7465-test-h3kfc-1303825603/htxjqimages/find/lbt/fxylbt.png' bindtap="goView"></image>
+  </view>
+  <view class="plate">
+  <navigator url="/pages/meishi/meishi" hover-class="navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="{{a1src}}"></image>
+       </view>
+       <text class="plate-info">
+        美食
+       </text>
+  </navigator>
+  <navigator url="/pages/zhusu/zhusu" hover-class="navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="{{a2src}}"></image>
+       </view>
+       <text class="plate-info">
+        住宿
+       </text>
+  </navigator>
+  <navigator url="/pages/huodong/huodong" hover-class="navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="{{a3src}}"></image>
+       </view>
+       <text class="plate-info">
+        活动
+       </text>
+  </navigator>
+  <navigator url="/pages/fuwu/fuwu" hover-class="navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="{{a4src}}"></image>
+       </view>
+       <text class="plate-info">
+        服务
+       </text>
+  </navigator>
+  </view>
+</scroll-view>

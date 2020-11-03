@@ -1,0 +1,37 @@
+.img{
+  margin-top: 5px;
+  display:flex;
+  justify-content: center;
+}
+.tu{
+  width: 720rpx;
+  height: 400rpx;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.plate{
+  height:180rpx;
+  background: rgb(255, 255, 255);
+}
+.plate-item{
+  display: flex;
+  float:left;
+  position: relative;
+  width: 140rpx;
+  height:155rpx;
+  margin-top:20rpx; 
+  margin-left:45rpx;
+  justify-content: center;
+}
+.plate-img image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.plate-info{
+  position: absolute;
+  height:30rpx;
+  font-size: 30rpx;
+  font-family: '微软雅黑';
+  bottom: 60rpx;
+  left:37rpx;
+}
