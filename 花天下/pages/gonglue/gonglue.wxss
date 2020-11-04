@@ -5,7 +5,25 @@ page{
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  height:600rpx;
+  height:850px;
   background-color: white;
   border-radius:15px !important;
+}
+.sl{
+  margin-left: 5px;
+  margin-top: 15px;
+  font-size: large;
+  font-weight:bold;
+  color:#3CB371;
+}
+.a{
+  margin-top: 10px;
+  margin-left: 5px;
+  font-weight:100;
+  color: #696969;
+}
+.img{
+  width: 330px;
+  height: 150px;
+  margin-left: 7px;
 }

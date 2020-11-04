@@ -1,6 +1,20 @@
 <view>
   <view class="gonglue">
-    <text>游玩攻略</text>
-    
+    <text class="sl">● 一分钟速览</text>
+    <view>
+    <text>推荐路线：到达牡丹园，1.牡丹栽培观光区 2.揽花亭 3.戏曲--牡丹亭   返程</text>
+    </view>
+    <view class="a">
+    <text>1.牡丹栽培观光区：苏州古典园林是江南园林的精髓,承袭中囯国园林文化的传统;牡丹是我国的传统名花,素 有“国色天香”“百花之王”之称,是世人心目中雍容华贵、繁萊大器的文化象征。</text>
+    <image src='http://mdy.shcmall.cn/img/scenic_detail/4.png' class="img"></image>
+    </view>
+    <view class="a">
+    <text>2.揽花亭：在园区路线选择能欣赏到该地区最具特色、最优美的风景地点，新建的揽花亭， 建筑以简唐风为主，注重与周边环境的协调/融洽。</text>
+    <image src='http://mdy.shcmall.cn/img/strategy/4-1.png' class="img"></image>
+    </view>
+    <view class="a">
+    <text>3.戏曲--牡丹亭：戏曲是中国传统艺术之一,剧种繁多有趣,表演形式载歌载舞,有说有唱,有文有武, 集“"唱、做、念、打"于体,在世界戏剧史上独树一帜。牡丹园中就有戏曲表演，有兴趣的小伙伴可以去欣赏。</text>
+    <image src='http://mdy.shcmall.cn/img/strategy/1-2.png' class="img"></image>
+    </view>
   </view>
 </view>
